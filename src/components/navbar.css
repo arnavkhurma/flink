@@ -1,0 +1,32 @@
+.nav-link {
+    font-size: 14px;
+    color: rgb(200, 200, 200);
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background: white;
+}
+
+.bar {
+    background: linear-gradient(to bottom, #7844dc -100%, black);
+    height: 65px;
+}
+
+.user {
+    border-radius: 50%; /* for a circular border */
+    border: 1px solid white; /* add a 2px white border */
+}
+
+.prof-nav   {
+    color:grey;
+
+}
+
+.prof-nav:hover   {
+    color:black;
+
+}

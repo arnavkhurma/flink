@@ -1,0 +1,50 @@
+.card   {
+    border: 2px solid black; /* add a 2px white border */
+    margin-bottom: -8px;
+}
+
+@keyframes jump {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+  }
+  
+  .mentor-button {
+    margin-right: 7px;
+    background-color: black;
+    border: 1px solid black; /* add a 1px black border */
+    transition: transform 0.3s ease; /* smooth transition */
+  }
+  
+  .mentor-button:hover {
+    background-color: grey;
+    border: 1px solid grey; /* add a 1px grey border */
+    animation: jump 0.5s ease; /* apply jump animation */
+  }
+
+  /* YourComponent.css */
+.custom-card {
+  /* Add any custom styles for your card here */
+  border: 0px solid #ddd; /* Add a 1px solid border */
+  border-radius: 40px; /* Optional: Add border-radius for rounded corners */
+  padding: 20px; /* Optional: Adjust padding as needed */
+  box-shadow: 0 0 10px rgba(17, 17, 17, 0.1); /* Add a subtle box shadow */
+}
+
+.custom-card-2 {
+  /* Add any custom styles for your card here */
+  border: 0px solid #ddd; /* Add a 1px solid border */
+  border-radius: 40px; /* Optional: Add border-radius for rounded corners */
+  padding: 20px; /* Optional: Adjust padding as needed */
+  box-shadow: 0 0 10px rgba(17, 17, 17, 0.1); /* Add a subtle box shadow */
+}
+
+.cards-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}

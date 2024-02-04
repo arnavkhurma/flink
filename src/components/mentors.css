@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-1 {
+  padding: 20px;
+  height: 100vh; /* Set the height to fill the viewport */
+  box-sizing: border-box; /* Include padding in the height */
+  position: relative;
+  overflow-y: auto; /* Set position to relative so that children can be positioned relative to it */
+}
+
+.textContainer-mentors {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start of the container */
+  height: 100%; /* Fill the parent's height */
+}
+
+.text-mentors {
+  margin: 0; /* Remove default margin for h1 */
+  max-width: 100%; /* Ensure the text doesn't overflow */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns in the grid */
+  grid-gap: 10px; /* Gap between grid items */
+}
+
+.grid-item {
+  width: 100%; /* Ensure grid items take full width of the container */
+}
+
+.indi {
+  margin-bottom: 300px;
+}
+
+.searchbox {
+  margin-top: -70px;
+}
+
+.d-flex {
+  width: 1210px;
+}

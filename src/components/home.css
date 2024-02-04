@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .page {
+    padding: 20px;
+    height: 100vh; /* Set the height to fill the viewport */
+    box-sizing: border-box; /* Include padding in the height */
+    background-image: url('C:\Users\arnav\OneDrive\Desktop\Front-End Flink\flink\src\images\background-home.png');
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    position: relative; /* Set position to relative so that children can be positioned relative to it */
+  }
+
+  
+  
+  .textContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -160px;
+    height: 100%; /* Fill the parent's height */
+  }
+  
+  .textContainer h1 {
+    margin: 0; /* Remove default margin for h1 */
+    max-width: 100%; /* Ensure the text doesn't overflow */
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 10px;
+    background: linear-gradient(to right, #7844dc, black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.login-form-div {
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -200px;
+    margin-left: 15px;
+}
+  

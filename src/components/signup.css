@@ -1,0 +1,87 @@
+/* SignUp.css */
+
+body-signup {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    position: relative;
+    overflow: hidden;
+    
+     /* Set position to relative so that children can be positioned relative to it */
+  }
+  .page2 {
+    padding: 20px;
+    height: 100vh; /* Set the height to fill the viewport */
+    box-sizing: border-box; /* Include padding in the height */
+    background-image: url('C:\Users\arnav\OneDrive\Desktop\Front-End Flink\flink\src\images\background-2.png');
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    position: relative; /* Set position to relative so that children can be positioned relative to it */
+  }
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 55px; /* Adjusted margin for vertical centering */
+    margin-right: 70px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: transform 0.5s ease; /* Add a transition for the transform property */
+  }
+  
+  input:hover,
+  input:focus {
+    transform: translateY(-5px); /* Move the input 3 pixels up on hover or focus */
+  }
+  
+  /* SignUp.css */
+
+/* ... (previous styles) */
+
+.signup-button {
+    background: linear-gradient(to right, #7844dc, black);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: transform 0.5s ease; /* Add a transition for the transform property */
+  }
+  
+  .signup-button:hover {
+    
+    transform: translateY(-10px); /* Move the button 5 pixels up on hover */
+  }
+  
+  /* ... (other styles) */
+  
+  
