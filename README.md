@@ -1,6 +1,7 @@
 # Flink - Bridging the Gender Gap in Tech
 
-<iframe width="100%" height="auto" src="https://www.youtube.com/watch?v=dDVeKTqfEmo" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/dDVeKTqfEmo" frameborder="0" allowfullscreen></iframe>
+
 
 ## Inspiration
 **Flink** was founded out of a thought-provoking question: _What if women in technology had a dynamic platform where they could quickly connect, work together, and motivate one another to close the gender gap?_ Our quest to establish an environment where women and other underrepresented groups can prosper in the digital sector was spurred by this question.
